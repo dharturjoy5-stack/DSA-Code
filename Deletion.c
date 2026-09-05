@@ -3,7 +3,7 @@ int deletion(int arr[],int n,int pos){
     for(int i=pos;i<n-1;i++){
         arr[i]=arr[i+1];
     }
-  //return n-1;
+ 
 }
 int main(){
     int arr[5]={10,20,30,40,50};
