@@ -20,7 +20,7 @@ void push(int value) {
 int pop() {
     if (isEmpty()) {
         printf("Stack Underflow\n");
-        return -1; // Return an invalid value to indicate underflow
+        return -1; 
     } else {
         int poppedValue = stack[top];
         top--;
@@ -31,7 +31,7 @@ int pop() {
 int peak() {
     if (isEmpty()) {
         printf("Stack is empty\n");
-        return -1; // Return an invalid value to indicate empty stack
+        return -1; 
     } else {
         return stack[top];
     }
